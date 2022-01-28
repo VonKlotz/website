@@ -1,0 +1,109 @@
+                /* MoneyWash.com style.css */
+
+    /* body - general body settings under this line */
+body {
+    margin: 0px;
+    background-color: ivory;
+}
+
+    /* <marquee> - sliding tekst under this line ** deprecated in the new version of HTML, i.e., HTML 5. and its a easter egg now*/
+marquee {
+    background-color: ivory;
+    color: rgb(92, 51, 0);
+    font-style: italic;
+    font-size: 18px;
+}
+marquee a{
+    color: darkblue;
+    text-decoration: none;
+    font-style: italic;
+}
+marquee a:hover {
+    color: lightcoral;
+}
+
+    /* banner - logo under this line */
+#banner {
+    background-color: ivory;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* navbar - navigation bar under this line */
+#navbar {
+    background-color: lightgray;
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 22px;
+}
+#navbar a{
+    color: darkblue;
+    text-decoration: none;
+    font-style: italic;
+}
+#navbar a:hover {
+    color: lightcoral;
+}
+
+    /* txtStandard - standard tekst style under this line */
+.txtStandard {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(92, 51, 0);
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+    /* h1 - header 1 under this line */
+h1 {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(222, 223, 211, 0.5) ;
+}
+
+    /* mailLinkContainer - container for email links */
+.mailLinkContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+    /* mailLink - email links style inside container under this line */
+.mailLink {
+    color: rgb(92, 51, 0);
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mailLink a{
+    color: darkblue;
+    text-decoration: none;
+    font-style: italic;
+}
+.mailLink a:hover {
+    color: lightcoral;
+}
+
+    /* image - images container settings (exept logo) */
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ivory;
+    padding: 0.5%;
+}
+
+    /* imageSettings - images settings (exept logo)  */
+.imageSettings {
+    width: 35%;
+    padding: 0.5%;
+}
+
+    /* end of file*/
